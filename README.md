@@ -1,1 +1,1 @@
-https://github.com/Renko-hub/ono-tebe-nado
+https://github.com/Renko-hub/posmotri-v-okno-fd
