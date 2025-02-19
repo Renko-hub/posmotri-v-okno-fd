@@ -190,6 +190,10 @@ ol {
 	font-size: 30px;
 	line-height: 100%;
 	text-transform: uppercase;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 192px;
 }
 
 .content__video-card-description {
@@ -207,12 +211,6 @@ ol {
 	border: none;
 }
 
-.search-form__fieldset-title {
-	color: #fff;
-	font-weight: 400;
-	font-size: 18px;
-}
-
 .search-form__checkbox-list {
 	display: flex;
 	gap: 15px;
@@ -224,6 +222,7 @@ ol {
 	align-items: center;
 	gap: 5px;
 	cursor: pointer;
+	appearance: none;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -313,4 +312,5 @@ ol {
 }
 .more-button {
 	width: 100%;
+	min-height: 34px;
 }
